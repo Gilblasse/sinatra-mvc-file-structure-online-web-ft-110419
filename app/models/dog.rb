@@ -8,13 +8,11 @@ class Dog
     @breed = breed 
     @age = age
     save
-     binding.pry
   end
   
   def save 
     self.class.all << self
   end
-  
   
   def self.all 
     @@all
