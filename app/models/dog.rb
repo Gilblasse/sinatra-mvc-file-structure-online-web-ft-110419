@@ -8,7 +8,7 @@ class Dog
     @breed = breed 
     @age = age
     save
-    
+     binding.pry
   end
   
   def save 
